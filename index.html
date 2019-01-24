@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MileStone 2 - JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <form>
+            <input type="text" id="title" name="title" value="Tytuł filmu...">
+            <button type="button" id="search">Wyszukaj Film</button>
+            <button type="button" id="remove">Usuń Film</button>
+            <button type="button" id="remove">Dodaj Film</button><br />
+        </form>
+        <form id="newMovie">
+            <label for="newTitle">Podaj tytuł filmu:</label><br />
+            <input type="text" id="newTitle" name="newTitle"><br />
+            <label for="newYear">Podaj rok premiery:</label><br />
+            <input type="text" id="newYear" name="newYear"><br />
+            <label for="newRating">Podaj ocenę:</label><br />
+            <input type="number" id="newRating" name="newRating" min="1" max="10"><br />
+            <label for="newPoster">Podaj adres plakatu:</label><br />
+            <input type="text" id="newPoster" name="newPoster"><br />
+        </form>
+        <p id="error"></p>
+        <p>
+            <img id="poster" src="" />
+            <ul id="content">
+
+            </ul>
+        </p>
+    </div>
+</body>
+
+</html>

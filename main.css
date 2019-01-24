@@ -1,0 +1,42 @@
+body {
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form:first {
+    border-bottom: 1px solid black;
+}
+
+form:nth-of-type(2) {
+    border-top: 1px solid black;
+}
+
+#newMovie {
+    display: none;
+}
+
+#wrapper {
+    box-sizing: border-box;
+    background-color: #ddd;
+    width: 80%;
+    min-height: 700px;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+#content li {
+    list-style: none;
+}
+
+#error {
+    max-width: 300px;
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: rgba(240, 180, 180, 0.9);
+    display: none;
+}
+
+#poster {
+    max-width: 200px;
+    float: left;
+}
